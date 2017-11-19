@@ -22,3 +22,6 @@ print "How about some more."
 print "Is it greater?", 5 > -2
 print "Is it greater or equal?", 5 >= -2
 print "Is it less or equal?", 5 <= -2
+
+print  u"76/8的商是 ", 76/8 # python3 的整除运算符改为 //
+print  u"76/8的余数是 ", 76%8
