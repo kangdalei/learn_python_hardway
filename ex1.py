@@ -14,3 +14,6 @@ print u"这很有趣"
 print u'耶！打印.'
 print u"我宁愿你不要"
 print u'我说不要碰这个.'
+
+
+
