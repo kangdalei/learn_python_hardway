@@ -17,3 +17,11 @@ print "His teeth are usually %s depending on the coffee." % my_teeth
 
 print "If I add %d, %d, and %d I get %d." %(
     my_age, my_height, my_weight, my_age + my_height + my_weight)
+
+
+# %d 整数
+# %s 字符串
+# %f 浮点数
+# %x 十六进制整数
+# %r 原始字符串，取消转义
+# %% 在字符串中转义%
