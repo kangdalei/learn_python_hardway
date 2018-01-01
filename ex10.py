@@ -15,3 +15,8 @@ print tabby_cat
 print persian_cat
 print backslash_cat
 print fat_cat
+
+while True:
+    for i in ["/", "-", "|", "\\", "|"]:
+        print "%s\r" % i, # \r 回车 回到行首，覆盖掉之前输出的字符
+        # 结尾的 , 表示输出不换行，以空格结尾，而不是换行符newline
