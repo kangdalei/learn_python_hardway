@@ -5,11 +5,11 @@ from sys import argv
 script, input_file = argv
 
 def print_all(f):
-    print f.read()
+    print f.read()              # 把文件整个读入内存
 
 
 def rewind(f):
-    f.seek(0)
+    f.seek(0)                   # 回到文件 第一个字节
 
 
 def print_a_line(line_count, f):
